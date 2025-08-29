@@ -23,6 +23,9 @@ secondContact.textContent = 'Butcher';
 const psecondContactInfo = document.createElement('p');
 psecondContactInfo.innerHTML = `038784893 <br> Brgy. Wetson, Wetvile`;
 
+const web= document.createElement('p');
+web.innerHTML = `webpack sucks`;
+
 
 
 container.appendChild(title);
@@ -31,6 +34,7 @@ container.appendChild(firtsContact);
 container.appendChild(firtsContactInfo);
 container.appendChild(secondContact);
 container.appendChild(psecondContactInfo);
+container.appendChild(web);
 
 }
 export default loadContacts
