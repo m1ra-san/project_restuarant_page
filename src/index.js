@@ -10,6 +10,8 @@ import contact from './contact.js';
 const buttons=document.querySelectorAll('button')
 home()
 
+
+
 buttons.forEach(button=>{
     button.addEventListener("click",e=>{
         if(e.target.id==='home'){

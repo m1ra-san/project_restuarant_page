@@ -24,6 +24,7 @@ const psecondContactInfo = document.createElement('p');
 psecondContactInfo.innerHTML = `038784893 <br> Brgy. Wetson, Wetvile`;
 
 
+
 container.appendChild(title);
 container.appendChild(contact);
 container.appendChild(firtsContact);
@@ -32,5 +33,4 @@ container.appendChild(secondContact);
 container.appendChild(psecondContactInfo);
 
 }
-
 export default loadContacts
