@@ -1,0 +1,41 @@
+* {
+  /* outline: 2px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-h: 50px;
+}
+
+body {
+  display: flex;
+  background-color: rgb(248, 246, 245);
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: var(--header-h);
+}
+
+.body-content {
+  height: calc(100vh - var(--header-h));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 80%;
+  min-height: 80%;
+}
+
+button {
+  border-radius: 10px;
+  border: 2px solid rgb(255, 162, 0);
+  background-color: rgba(243, 183, 140, 0);
+}
